@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hijoke.github.io</id>
-    <title>FSJ 的互联网私密处</title>
-    <updated>2020-07-04T14:08:19.817Z</updated>
+    <title>慎独</title>
+    <updated>2020-07-14T04:26:00.763Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hijoke.github.io"/>
     <link rel="self" href="https://hijoke.github.io/atom.xml"/>
+    <subtitle>毛病不改  积恶成习</subtitle>
     <logo>https://hijoke.github.io/images/avatar.png</logo>
     <icon>https://hijoke.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, FSJ 的互联网私密处</rights>
+    <rights>All rights reserved 2020, 慎独</rights>
     <entry>
-        <title type="html"><![CDATA[😃]]></title>
+        <title type="html"><![CDATA[毛病不改积恶成习]]></title>
         <id>https://hijoke.github.io/iJRR8mEej/</id>
         <link href="https://hijoke.github.io/iJRR8mEej/">
         </link>
