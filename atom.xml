@@ -1,15 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://fsj.one</id>
-    <title>慎独</title>
-    <updated>2020-07-14T05:32:40.990Z</updated>
+    <title>君子慎独</title>
+    <updated>2020-07-16T14:53:02.368Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://fsj.one"/>
     <link rel="self" href="https://fsj.one/atom.xml"/>
     <subtitle>毛病不改  积恶成习</subtitle>
     <logo>https://fsj.one/images/avatar.png</logo>
     <icon>https://fsj.one/favicon.ico</icon>
-    <rights>All rights reserved 2020, 慎独</rights>
+    <rights>All rights reserved 2020, 君子慎独</rights>
+    <entry>
+        <title type="html"><![CDATA[网页内嵌]]></title>
+        <id>https://fsj.one/text/</id>
+        <link href="https://fsj.one/text/">
+        </link>
+        <updated>2020-07-16T14:49:39.000Z</updated>
+        <summary type="html"><![CDATA[<pre><code>    &lt;iframe style=&quot;max-width: 100%&quot; 
+      frameborder=&quot;no&quot; 
+      border=&quot;0&quot; 
+      marginwidth=&quot;0&quot; 
+      marginheight=&quot;0&quot; 
+      width=&quot;100%&quot; 
+      height=&quot;750px&quot; 
+      src=&quot;这里写需要嵌入的网页路径&quot;&gt;                                        
+   &lt;/iframe&gt;
+</code></pre>
+]]></summary>
+        <content type="html"><![CDATA[<pre><code>    &lt;iframe style=&quot;max-width: 100%&quot; 
+      frameborder=&quot;no&quot; 
+      border=&quot;0&quot; 
+      marginwidth=&quot;0&quot; 
+      marginheight=&quot;0&quot; 
+      width=&quot;100%&quot; 
+      height=&quot;750px&quot; 
+      src=&quot;这里写需要嵌入的网页路径&quot;&gt;                                        
+   &lt;/iframe&gt;
+</code></pre>
+<!-- more -->
+<p>例子：</p>
+<iframe style="max-width: 100%" 
+frameborder="no" 
+border="0" 
+marginwidth="0" 
+marginheight="0" 
+width="100%" 
+height="750px" 
+src="//qw0wp.bid/merger/">                                        
+</iframe>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[毛病不改积恶成习]]></title>
         <id>https://fsj.one/iJRR8mEej/</id>
