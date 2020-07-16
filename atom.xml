@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://fsj.one</id>
     <title>君子慎独</title>
-    <updated>2020-07-16T15:45:13.934Z</updated>
+    <updated>2020-07-16T15:47:50.631Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://fsj.one"/>
     <link rel="self" href="https://fsj.one/atom.xml"/>
@@ -125,6 +125,37 @@ src="//qw0wp.bid/merger/">
 </ul>
 <h2 id="地址">地址</h2>
 <p>https://github.com/kmvan/x-prober/blob/master/README-zh_CN.md</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于我服务器遇到木马病毒这件事 kswapd0 占用100%]]></title>
+        <id>https://fsj.one/trojan/</id>
+        <link href="https://fsj.one/trojan/">
+        </link>
+        <updated>2020-07-01T16:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>今天上宝塔发现负载占用和CPU占用 100%<br>
+刚开始以为是前两天安装的ASF的问题，使得 ASF 一直在后台连接 STEAM。<br>
+后来删除 ASF 后依然如此，于是上网查看如何找后台进程。<br>
+通过<code>top</code>命令查看任务管理器<br>
+发现其中一个叫<code>kswapd0</code>的占用近 100% ，于是网上找这是个什么东西<br>
+大部分都说是配置低，但还是有人说这是中病毒了<br>
+我按照他的步骤，确认我的情况是中病毒了。<br>
+下面是这位大佬的步骤和分析<br>
+https://blog.csdn.net/jzz601264258/article/details/105850816<br>
+https://blog.csdn.net/subfate/article/details/106546646<br>
+#具体步骤<br>
+我把需要输入的命令写在下面</p>
+<ul>
+<li>首先<code>netstat -antlp</code>查看系统外部链接</li>
+<li>找到奇怪的IP连接kwapd0后使用<code>ls -l /proc/进程PID/exe</code>找到主机上文件位置</li>
+<li>删除文件<code>rm rf 位置/</code></li>
+<li>使用<code>kill -9 PID</code>杀死进程</li>
+<li><code>netstat -antlp</code>查看系统外部链接</li>
+<li>封锁黑客IP<br>
+<img src="https://yanxuan.nosdn.127.net/199ffc71daaf69351f5e7bf2072fdf41.png" alt="" loading="lazy"><br>
+我现在服务器状态已经正常<br>
+<img src="https://yanxuan.nosdn.127.net/d8c8cfef504773b35b9a929cebfaea47.png" alt="" loading="lazy"></li>
+</ul>
 ]]></content>
     </entry>
 </feed>
