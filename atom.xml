@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://fsj.one</id>
     <title>君子慎独</title>
-    <updated>2020-07-16T14:56:38.138Z</updated>
+    <updated>2020-07-16T15:44:44.057Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://fsj.one"/>
     <link rel="self" href="https://fsj.one/atom.xml"/>
@@ -68,6 +68,63 @@ src="//qw0wp.bid/merger/">
 网址缩短：<a href="https://dwz.fsj.one">https://dwz.fsj.one</a></p>
 </center>
 <!-- more -->
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ X 探针、刘海探针 利用 PHP 监控您的服务器信息]]></title>
+        <id>https://fsj.one/xprober/</id>
+        <link href="https://fsj.one/xprober/">
+        </link>
+        <updated>2020-07-04T04:56:00.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://github.com/kmvan/x-prober/raw/master/screenshot.jpg" alt="X Prober preview" loading="lazy"></figure>
+<h1 id="x-探针-刘海探针">😎 X 探针、刘海探针</h1>
+<blockquote>
+<p>这是一款 PHP 环境探针程序，它不仅可以十分直观地为您显示服务器的信息，而且最重要的是：它跟 📱 <strong>iPhone X/XS/XS Max/XR</strong> 一样有丑陋的刘海！</p>
+</blockquote>
+<h2 id="开源协议">开源协议</h2>
+<ul>
+<li>GPL-3.0</li>
+</ul>
+<h2 id="线上演示">线上演示</h2>
+<ul>
+<li><a href="https://x-prober-server-benchmark-spartanhost-dalls.inn-studio.com/">X 监控</a></li>
+</ul>
+<h2 id="下载与使用">下载与使用</h2>
+<ul>
+<li>点击 <a href="https://api.inn-studio.com/download?id=xprober">INN 下载节点</a> 或 <a href="https://github.com/kmvan/x-prober/raw/master/dist/prober.php">GitHub 节点</a> 下载探針文件。</li>
+<li>您将会得到一个文件，命名为 <code>x.php</code> 并上传到您的服务器上。</li>
+<li>通过浏览器访问 <code>x.php</code> 即可。</li>
+</ul>
+<h2 id="环境需求">环境需求</h2>
+<ul>
+<li>编译环境：PHP 7.4+</li>
+<li>运行环境：PHP 5.3+</li>
+<li>浏览器兼容：Chrome、Firefox、Edge、Android</li>
+<li>系统兼容：Linux、Windows（基础功能）</li>
+</ul>
+<h2 id="擴展">擴展</h2>
+<ul>
+<li>正在編寫中……</li>
+</ul>
+<h2 id="开发指引">开发指引</h2>
+<ul>
+<li>星标和 Fork。</li>
+<li>Fetch 您的仓库。</li>
+<li>安装 npm 模块：<code>$ npm install</code>。</li>
+<li>监听脚本：<code>$ npm run dev</code>。</li>
+<li>安装 composer：<code>$ composer install &amp;&amp; composer dumpautoload -o</code>。</li>
+<li>生成多国语言：<code>$ npm run lang</code> 或 <code>$ node ./build-lang.js</code> 来重建 <code>./languages/lang.pot</code> 语言模板。</li>
+<li>编译：<code>$ php ./Make.php dev</code>。</li>
+<li>访问：<code>$ php -S localhost:8000 -t ./.tmp</code>.</li>
+<li>进行 Pull Request。</li>
+</ul>
+<h2 id="编译生产">编译生产</h2>
+<ul>
+<li>编译：<code>$ npm run build; php ./Make.php build</code>.</li>
+<li>访问：<code>$ php -S localhost:8000 ./dist/prober.php</code>.</li>
+</ul>
+<h2 id="地址">地址</h2>
+<p>https://github.com/kmvan/x-prober/blob/master/README-zh_CN.md</p>
 ]]></content>
     </entry>
 </feed>
