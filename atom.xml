@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://fsj.one</id>
     <title>君子慎独</title>
-    <updated>2020-07-17T15:06:44.363Z</updated>
+    <updated>2020-07-17T15:11:17.954Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://fsj.one"/>
     <link rel="self" href="https://fsj.one/atom.xml"/>
@@ -76,7 +76,10 @@ src="//qw0wp.bid/merger/">
         <link href="https://fsj.one/xprober/">
         </link>
         <updated>2020-07-04T04:56:00.000Z</updated>
+        <summary type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://github.com/kmvan/x-prober/raw/master/screenshot.jpg" alt="X Prober preview" loading="lazy"></figure>
+]]></summary>
         <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://github.com/kmvan/x-prober/raw/master/screenshot.jpg" alt="X Prober preview" loading="lazy"></figure>
+<!-- more -->
 <h1 id="x-探针-刘海探针">😎 X 探针、刘海探针</h1>
 <blockquote>
 <p>这是一款 PHP 环境探针程序，它不仅可以十分直观地为您显示服务器的信息，而且最重要的是：它跟 📱 <strong>iPhone X/XS/XS Max/XR</strong> 一样有丑陋的刘海！</p>
