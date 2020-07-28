@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://fsj.one</id>
     <title>假君子</title>
-    <updated>2020-07-25T09:55:01.412Z</updated>
+    <updated>2020-07-28T08:33:09.140Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://fsj.one"/>
     <link rel="self" href="https://fsj.one/atom.xml"/>
@@ -10,6 +10,19 @@
     <logo>https://fsj.one/images/avatar.png</logo>
     <icon>https://fsj.one/favicon.ico</icon>
     <rights>All rights reserved 2020, 假君子</rights>
+    <entry>
+        <title type="html"><![CDATA[诗一首]]></title>
+        <id>https://fsj.one/shi-yi-shou/</id>
+        <link href="https://fsj.one/shi-yi-shou/">
+        </link>
+        <updated>2020-07-28T08:31:23.000Z</updated>
+        <content type="html"><![CDATA[<p>庚子庚子不得了，粮食没问题，瘟疫被赶跑。百姓安居乐业，齐夸党的领导，尤其爱国青年，更是天下难找。<br>
+国外比较乱套，成天勾心斗角，昨天首相病危，今天统领要倒。闹完弹劾危机，又来疫情领跑。<br>
+纵观世界风云， 风景祖国独好！</p>
+<p>作者：<br>
+Sylvie Wang</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[以西結書 13:13-15]]></title>
         <id>https://fsj.one/yi-xi-jie-shu-1313-15/</id>

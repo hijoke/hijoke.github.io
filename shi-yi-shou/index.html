@@ -8,7 +8,7 @@
 <meta name="keywords" content="个人博客, 冯少杰, Gridea, 网络一线牵, 珍惜这段缘, I don&#39;t care SEO, 免费游戏, 黄色网站, 色情网站, steamcn">
 <meta name="description" content="毛病不改  积恶成习">
 <meta name="theme-color" content="#000">
-<title>假君子</title>
+<title>诗一首 | 假君子</title>
 <link rel="shortcut icon" href="/favicon.ico?v=1595925185937">
 <link rel="stylesheet" href="/styles/main.css">
 <link rel="stylesheet" href="/media/css/gemini.css">
@@ -39,7 +39,8 @@
 </script>
 
 
-  <meta name="description" content="毛病不改  积恶成习">
+  <meta name="description" content="诗一首" />
+  <meta name="keywords" content="" />
 </head>
 
 <body>
@@ -95,7 +96,7 @@
           
             
             
-            <li class="nav-item nav-item-active">
+            <li class="nav-item ">
               
               
                 <a href="/archives/" target="_self">
@@ -169,10 +170,25 @@
   <div class="main-continer">
     
     <div
-      class="section-layout  gemini">
+      class="section-layout gemini ">
       <div class="section-layout-wrapper">
-        <div id="sidebarMeta" class="sidebar">
-    
+        
+
+<div class="sidebar">
+  
+    <div class="sidebar-box box-shadow-wrapper bg-color right-motion" id="sidebar">
+      
+        <div class="post-list-sidebar">
+          <div class="sidebar-title">
+            <span id="tocSideBar" class="sidebar-title-item sidebar-title-active">文章目录</span>
+            <span id="metaSideBar" class="sidebar-title-item">站点概览</span>
+          </div>
+        </div>
+      
+      <div class="sidebar-body gemini" id="sidebar_body">
+        
+          
+            
 <div class="sidebar-wrapper box-shadow-wrapper bg-color">
   <div class="sidebar-item">
     <img class="site-author-image right-motion" src="/images/avatar.png"/>
@@ -235,136 +251,215 @@
 
 
 </div>
+          
+        
+      </div>
+    </div>
+  
 </div>
 <script>
-  let sidebarMeta = document.querySelector('#sidebarMeta');
-  let scheme = 'gemini';
-  let sidebarWrapper = document.querySelector('.sidebar-wrapper');
-  if (sidebarMeta && (scheme === 'pisces' || scheme === 'gemini')) {
-    document.addEventListener('scroll', function(e) {
-      if (document.scrollingElement.scrollTop > parseInt(sidebarMeta.style.marginTop) + 10) {
-        sidebarWrapper.classList.add('home-sidebar-fixed')
-      } else {
-        sidebarWrapper.classList.remove('home-sidebar-fixed')
-      }
-    });
-  }
-  </script>
-        <div class="section-box box-shadow-wrapper">
-          <section class="section archives-section bg-color posts-expand">
-            
+  const SIDEBAR_TITLE_ACTIVE = 'sidebar-title-active';
+  const SIDEBAR_BODY_ACTIVE = 'sidebar-body-active';
+  const SLIDE_UP_IN = 'slide-up-in';
 
-<div class="bg-color">
-  <div class="archive-timeline-box">
-    <div class="archive-timeline-title">
-      
-        <h2>非常好！目前共计6篇日志，继续努力！</h2>
-      
-    </div>
+  let sidebar = document.querySelector('#sidebar'),
+  tocSideBar = document.querySelector('#tocSideBar'),
+  metaSideBar = document.querySelector('#metaSideBar'),
+  postToc = document.querySelector('#post_toc'),
+  postSiteMeta = document.querySelector('#post_side_meta'),
+  sidebarTitle = document.querySelector('.sidebar-title'),
+  sidebarBody = document.querySelector('#sidebar_body');
+
+  tocSideBar && tocSideBar.addEventListener('click', (e) => {
+    toggleSidebar(e);
+  });
+
+  metaSideBar && metaSideBar.addEventListener('click', (e) => {
+    toggleSidebar(e);
+  });
+
+  function toggleSidebar(e) {
+    let currentTitle = document.querySelector("."+SIDEBAR_TITLE_ACTIVE);
+    if (currentTitle == e.srcElement) {
+      return ;
+    }
+    let current, showElement, hideElement;
+    if (e.srcElement == metaSideBar) {
+      showElement = postSiteMeta;
+      hideElement = postToc;
+    } else if (e.srcElement == tocSideBar){
+      showElement = postToc;
+      hideElement = postSiteMeta;
+    }
+    currentTitle.classList.remove(SIDEBAR_TITLE_ACTIVE);
+    e.srcElement.classList.add(SIDEBAR_TITLE_ACTIVE);
+
+    window.Velocity(hideElement, 'stop');
+    window.Velocity(hideElement, 'transition.slideUpOut', {
+      display: 'none',
+      duration: 200,
+      complete: function () {
+        window.Velocity(showElement, 'transition.slideDownIn', {
+          duration: 200
+        });
+      }
+    })
+    hideElement.classList.remove(SIDEBAR_BODY_ACTIVE);
+    showElement.classList.add(SIDEBAR_BODY_ACTIVE);
+  }
+
+  postToc && postToc.addEventListener('transitionend', function() {
+    this.classList.remove(SLIDE_UP_IN);
+  });
+
+  if (sidebarBody) {
+    if (sidebarBody.classList.contains('pisces') || sidebarBody.classList.contains('gemini')) {
+      let hasFix = false;
+      let scrollEl = document.querySelector('.main-continer');
+      let limitTop = document.querySelector('#nav_ul').children.length * 42 + 162;
+      window.addEventListener('scroll', function(e) {
+        if (document.scrollingElement.scrollTop >= limitTop) {
+          if (!hasFix) {
+            sidebar.classList.add('sidebar-fixed');
+            hasFix = true;
+          }
+        } else {
+          if (hasFix) {
+            sidebar.classList.remove('sidebar-fixed');
+            hasFix = false;
+          }
+        }
+      });
+    }
+  }
+  
+</script>
+        <div class="section-box box-shadow-wrapper">
+          <div class="section bg-color post post-page">
+            <header class="post-header">
+  <h1 class="post-title">
+    <a class="post-title-link" href="https://fsj.one/shi-yi-shou/">
+      诗一首
+    </a>
+  </h1>
+  <div class="post-meta">
     
-      
-      
-        <div class="node-title">
-          <h2 class="tag-year">2020</h2>
-        </div>    
-        
-      
-      <a href="https://fsj.one/shi-yi-shou/">
-        <div class="motion-warpper tag-archive-node">
-          <div class="tag-node">
-            <h1>
-              07-28
-              <small>诗一首</small>
-            </h1>
-          </div>  
-      </div>
-      </a>
+    <span class="meta-item pc-show">
+      <i class="fa fa-calendar-o"></i>
+      <span>发布于</span>
+      <span>2020-07-28</span>
+      <span class="post-meta-divider pc-show">|</span>
+    </span>
     
-      
-      
-      <a href="https://fsj.one/yi-xi-jie-shu-1313-15/">
-        <div class="motion-warpper tag-archive-node">
-          <div class="tag-node">
-            <h1>
-              07-18
-              <small>以西結書 13:13-15</small>
-            </h1>
-          </div>  
-      </div>
-      </a>
+    <span class="meta-item">
+      <i class="fa fa-clock-o"></i>
+      <span>1分钟</span>
+    </span>
+    <span class="meta-item">
+      <span class="post-meta-divider">|</span>
+      <i class="fa fa-file-word-o"></i>
+      <span>93<span class="pc-show">字数</span></span>
+    </span>
     
-      
-      
-      <a href="https://fsj.one/text/">
-        <div class="motion-warpper tag-archive-node">
-          <div class="tag-node">
-            <h1>
-              07-16
-              <small>网页内嵌</small>
-            </h1>
-          </div>  
-      </div>
-      </a>
     
-      
-      
-      <a href="https://fsj.one/iJRR8mEej/">
-        <div class="motion-warpper tag-archive-node">
-          <div class="tag-node">
-            <h1>
-              07-04
-              <small>毛病不改积恶成习</small>
-            </h1>
-          </div>  
-      </div>
-      </a>
     
-      
-      
-      <a href="https://fsj.one/xprober/">
-        <div class="motion-warpper tag-archive-node">
-          <div class="tag-node">
-            <h1>
-              07-04
-              <small> X 探针、刘海探针 利用 PHP 监控您的服务器信息</small>
-            </h1>
-          </div>  
-      </div>
-      </a>
-    
-      
-      
-      <a href="https://fsj.one/trojan/">
-        <div class="motion-warpper tag-archive-node">
-          <div class="tag-node">
-            <h1>
-              07-02
-              <small>关于我服务器遇到木马病毒这件事 kswapd0 占用100%</small>
-            </h1>
-          </div>  
-      </div>
-      </a>
+    <span id="/shi-yi-shou/" data-flag-title="诗一首" class="meta-item pc-show leancloud_visitors">
+      <span class="post-meta-divider">|</span>
+      <i class="fa fa-eye"></i>
+      <span>浏览量：<span class="leancloud-visitors-count"></span></span>
+    </span>
     
   </div>
-  
-<div class="page bg-color">
-  <ul class="pagination-ul">
-    
-    
-      
-        <li class="pagination-li pagination-active">
-            <a href="/archives/page/../">
-              1
-            </a>
-        </li>
-      
-    
-    
-  </ul>
-</div>
-</div>
+</header>
+            <div class="post-body next-md-body" id="post_body">
+              <p>庚子庚子不得了，粮食没问题，瘟疫被赶跑。百姓安居乐业，齐夸党的领导，尤其爱国青年，更是天下难找。<br>
+国外比较乱套，成天勾心斗角，昨天首相病危，今天统领要倒。闹完弹劾危机，又来疫情领跑。<br>
+纵观世界风云， 风景祖国独好！</p>
+<p>作者：<br>
+Sylvie Wang</p>
 
-          </section>
+            </div>
+            <div class="post-footer">
+  <ul class="post-copyright">
+    <li class="post-copyright-author">
+      <strong>本文作者：</strong>
+      风山渐
+    </li>
+    <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://fsj.one/shi-yi-shou/" title="诗一首">https://fsj.one/shi-yi-shou/</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong>版权声明： </strong>
+      本博客所有文章除特别声明外，均采用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i> BY-NC-SA</a> 许可协议。转载请注明出处！
+    </li>
+  </ul>
+  <div class="tags">
+    
+  </div>
+  <div class="nav">
+    <div class="nav-prev">
+      
+    </div>
+    <div class="nav-next">
+      
+        <a class="nav-pc-next" title="以西結書 13:13-15" href="https://fsj.one/yi-xi-jie-shu-1313-15/">以西結書 13:13-15</a>
+        <a class="nav-mobile-next" title="以西結書 13:13-15" href="https://fsj.one/yi-xi-jie-shu-1313-15/">下一篇</a>
+        <i class="fa fa-chevron-right"></i>
+      
+    </div>
+  </div>
+</div>
+            
+  <script src="https://cdn.jsdelivr.net/npm/valine@1.4.4/dist/Valine.min.js"></script>
+<div id="vcomments" style="padding: 10px 0px 0px 0px"></div>
+
+<style>
+  .v .veditor {
+    min-height: 10rem;
+    background-image: url('https://www.xgboke.com/wp-content/uploads/2018/01/2018010609494149.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: rgba(255, 255, 255, 0);
+    resize: none;
+  }
+
+  .v .vwrap {
+    border: 1px solid #000 !important;
+  }
+
+  .v .vbtn {
+    padding: .4rem 1.2rem !important;
+    border-color: #fff !important;
+    background-color: #49b1f5 !important;
+    color: #fff !important;
+    font-size: .7rem !important;
+  }
+
+  .v .vcards .vcard .vh .vmeta .vat {
+    padding: 0 .8rem !important;
+    border: 1px solid #00c4b6 !important;
+    border-radius: 5px !important;
+    color: #00c4b6 !important;
+  }
+</style>
+<script>
+  new Valine({
+    el: '#vcomments',
+    appId: 'crjC5rVFjQdkimML7Fn3IlPc-MdYXbMMI',
+    appKey: 'EoiiPKQ5LUJzXNAC8hAp7Pqn',
+    avatar: 'wavatar',
+    placeholder: '说些什么吧？支持 Markdown 哦',
+    pageSize: '',
+    lang: 'zh-cn',
+    visitor: 'true' === 'true',
+    highlight: 'true' === 'true',
+    avatarForce: 'true' === 'false',
+  });
+</script>
+
+          </div>
         </div>
       </div>
     </div>
@@ -538,6 +633,36 @@
   // 代码高亮
   hljs.initHighlightingOnLoad();
 
+</script>
+    <div class="light-box" id="light_box"></div>
+<script>
+  let imgs = document.querySelectorAll('.post-body img');
+  let lightBox = document.querySelector('#light_box');
+  lightBox.addEventListener('mousedown', (e) => {
+    e.preventDefault()
+  })
+  lightBox.addEventListener('mousewheel', (e) => {
+    e.preventDefault()
+  })
+  let width = window.innerWidth * 0.8;
+  lightBox.onclick = () => {
+    let img = lightBox.querySelector('img');
+    lightBox.style = '';
+    img && img.remove();
+  }
+  imgs.forEach(item => {
+    item.onclick = function (e) {
+      let lightImg = document.createElement('img');
+      lightImg.src = this.src;
+      lightBox.style = `height: 100%; opacity: 1; background-color: rgba(0, 0, 0, 0.5);cursor: zoom-out;`;
+      lightImg.style = `width: ${width}px; border: 1px solid #fff; border-radius: 2px;`;
+      lightImg.onclick = function () {
+        lightBox.style = '';
+        this.remove();
+      }
+      lightBox.append(lightImg);
+    }
+  })
 </script>
   </div>
 </body>
@@ -815,6 +940,5 @@ https://blog.csdn.net/subfate/article/details/106546646&lt;br&gt;
 
 
 <script src=" /media/js/cool.js"></script>
-
 
 </html>
