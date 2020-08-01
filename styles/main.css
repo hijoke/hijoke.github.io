@@ -2195,15 +2195,15 @@ body {
     }.box-shadow-wrapper {
       box-shadow: none !important;
     }body {
-      cursor: url('/media/curs//media/curs/default_normal.cur.cur'), default;
+      cursor: default;
     }a {
-      cursor: url('/media/curs//media/curs/default_link.cur.cur'), pointer !important;
+      cursor: pointer;
     }input, textarea, code {
-      cursor: url('/media/curs//media/curs/default_texto.cur.cur'), text !important;
+      cursor: text;
     }code > span.copy-code {
-      cursor: url('/media/curs//media/curs/default_vertical.cur.cur'), text !important;
+      cursor: pointer;
     }.post img {
-      cursor: url('/media/curs//media/curs/default_zoomout.cur.cur'), zoom-in !important;
+      cursor: zoom-in;
     }.post img {
-      cursor: url('/media/curs//media/curs/default_zoomout.cur.cur'), zoom-out !important;
+      cursor: zoom-out;
     }
