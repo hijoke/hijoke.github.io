@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://fsj.one</id>
     <title>假君子</title>
-    <updated>2020-08-01T10:22:34.769Z</updated>
+    <updated>2020-10-30T11:27:09.397Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://fsj.one"/>
     <link rel="self" href="https://fsj.one/atom.xml"/>
@@ -10,6 +10,19 @@
     <logo>https://fsj.one/images/avatar.png</logo>
     <icon>https://fsj.one/favicon.ico</icon>
     <rights>All rights reserved 2020, 假君子</rights>
+    <entry>
+        <title type="html"><![CDATA[人生中第一件重要的事——找工作]]></title>
+        <id>https://fsj.one/mmui/</id>
+        <link href="https://fsj.one/mmui/">
+        </link>
+        <updated>2020-10-29T16:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>漫漫人生路我已经不知不觉走到了大路口，来到了20岁这个门槛。念大学是为什么呢？经过了大学三年多的学习，终于到了拿成果的时候了。<br>
+在前二十年我的人生可谓是顺风顺水吧，没有经历过多大的挫折，工作怕是我第一个。<br>
+从大二暑假开始去天津找兼职，就开始了，我可能不适合找工作吧。当时去天津找个班上上，去了结果没名额了，只好灰溜溜的滚回来，现在记得的东西只有当时在郊区马路上大中午顶着大太阳骑小蓝车的样子。<br>
+现在开始正式招聘，刚开始就遇到了特殊情况，教室被占，招聘会终止，而面试的下一个就是我，真的倒霉，太原直接白去，虽然我并没有能面试成功的希望，我只是想看看面试是什么样子，结果白去。然后回来之后的面试是网上面试，网上面试真的恶心，HR问我成绩然后直接拒绝，问题是我说的也不后啊。然后江山的面试都没给我面试，不过倒是让我机考过了，不亏。之后的宁德也和托电情况差不多，如果不是名次靠后，可能我已经成功了，白等到10点多，澡也没洗成。然后张电白面试，谁也没要就要党员，我寻思这是开党校？张热被推荐了也没消息，可能是我没去通知我机考过了把我影响了。蔚州因为没有真证也没去试试，但是11月中还要扩招，不知道到时候怎么样。<br>
+前二十年可能是运气不错，可能之后就没这么简单了。人生才刚开始，我的黄金时代。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[诗一首]]></title>
         <id>https://fsj.one/shi-yi-shou/</id>
