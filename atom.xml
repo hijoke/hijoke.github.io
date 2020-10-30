@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://fsj.one</id>
     <title>假君子</title>
-    <updated>2020-10-30T11:27:09.397Z</updated>
+    <updated>2020-10-30T11:43:38.033Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://fsj.one"/>
     <link rel="self" href="https://fsj.one/atom.xml"/>
@@ -10,6 +10,28 @@
     <logo>https://fsj.one/images/avatar.png</logo>
     <icon>https://fsj.one/favicon.ico</icon>
     <rights>All rights reserved 2020, 假君子</rights>
+    <entry>
+        <title type="html"><![CDATA[2020 年我终于把自己的牙看了]]></title>
+        <id>https://fsj.one/2020-nian-wo-zhong-yu-ba-zi-ji-de-ya-kan-liao/</id>
+        <link href="https://fsj.one/2020-nian-wo-zhong-yu-ba-zi-ji-de-ya-kan-liao/">
+        </link>
+        <updated>2020-10-30T11:34:20.000Z</updated>
+        <content type="html"><![CDATA[<p>去年就牙疼，因为长了智齿的缘故，在今年的四月份，在县里拔了智齿，把顺便补了个牙，花了一千大洋。<br>
+这月初的时候，我下面有牙疼，一敏感就疼，疼的要命，就去朔州的医院看了，看了之后是一颗牙烂了，需要根管治疗，并且还有其他好几颗牙也在烂，要补，还有一颗智齿没有拔，现在正在长。我听到的时候我就傻了，我的牙没几个是好的，经过一个多礼拜，终于在今天结束了全部的治疗，从21号到今天30号。前后花了9805，算上之前在家的已经花了10000多了。<br>
+医生说我的牙质很差，我可能以后不能多喝饮料，不能吃甜的了，痛苦，人生一大乐趣失去了。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2020 年我终于把自己的牙看了]]></title>
+        <id>https://fsj.one/yayi/</id>
+        <link href="https://fsj.one/yayi/">
+        </link>
+        <updated>2020-10-30T11:34:20.000Z</updated>
+        <content type="html"><![CDATA[<p>去年就牙疼，因为长了智齿的缘故，在今年的四月份，在县里拔了智齿，把顺便补了个牙，花了一千大洋。<br>
+这月初的时候，我下面有牙疼，一敏感就疼，疼的要命，就去朔州的医院看了，看了之后是一颗牙烂了，需要根管治疗，并且还有其他好几颗牙也在烂，要补，还有一颗智齿没有拔，现在正在长。我听到的时候我就傻了，我的牙没几个是好的，经过一个多礼拜，终于在今天结束了全部的治疗，从21号到今天30号。前后花了9805，算上之前在家的已经花了10000多了。<br>
+医生说我的牙质很差，我可能以后不能多喝饮料，不能吃甜的了，痛苦，人生一大乐趣失去了。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[人生中第一件重要的事——找工作]]></title>
         <id>https://fsj.one/mmui/</id>
