@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://fsj.one</id>
     <title>假君子</title>
-    <updated>2020-10-30T11:44:30.181Z</updated>
+    <updated>2020-11-09T11:07:35.863Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://fsj.one"/>
     <link rel="self" href="https://fsj.one/atom.xml"/>
@@ -10,6 +10,33 @@
     <logo>https://fsj.one/images/avatar.png</logo>
     <icon>https://fsj.one/favicon.ico</icon>
     <rights>All rights reserved 2020, 假君子</rights>
+    <entry>
+        <title type="html"><![CDATA[头脑里有想法但没立刻记下来，真是大大的缺憾]]></title>
+        <id>https://fsj.one/tou-nao-li-you-xiang-fa-dan-mei-li-ke-ji-xia-lai-zhen-shi-da-da-de-que-han/</id>
+        <link href="https://fsj.one/tou-nao-li-you-xiang-fa-dan-mei-li-ke-ji-xia-lai-zhen-shi-da-da-de-que-han/">
+        </link>
+        <updated>2020-11-09T10:04:10.000Z</updated>
+        <summary type="html"><![CDATA[<p>我觉得我在犯困的时候会有更多的灵感。高中的时候在熬夜的时候脑子里面会有旋律产生。但是我不懂音乐，无法写下来，要不然我现在可能也是著名的音乐家了。<br>
+很多文章也是在上床后有的idea，但是没有立刻记下来，后来就再也不记得了。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>我觉得我在犯困的时候会有更多的灵感。高中的时候在熬夜的时候脑子里面会有旋律产生。但是我不懂音乐，无法写下来，要不然我现在可能也是著名的音乐家了。<br>
+很多文章也是在上床后有的idea，但是没有立刻记下来，后来就再也不记得了。</p>
+<!-- more -->
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[新时代的大数据]]></title>
+        <id>https://fsj.one/xin-shi-dai-de-da-shu-ju/</id>
+        <link href="https://fsj.one/xin-shi-dai-de-da-shu-ju/">
+        </link>
+        <updated>2020-11-09T10:01:06.000Z</updated>
+        <summary type="html"><![CDATA[<p>我到底是个什么样的人呢？</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>我到底是个什么样的人呢？</p>
+<!-- more -->
+<p>我思考了很久都不明白这个问题，但是在大数据时代好像这个问题很简单。我相信b站或者youtube都比我自己更要了解我自己，我非常建议这种个人推荐的网站能出一个性格测试的功能，能让人更深刻的了解自己，甚至找工作找对象也可以作为一定的参考，真是造福千万家的发明。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2020 年我终于把自己的牙看了]]></title>
         <id>https://fsj.one/yayi/</id>
