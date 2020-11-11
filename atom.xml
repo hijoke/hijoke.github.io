@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://fsj.one</id>
     <title>假君子</title>
-    <updated>2020-11-09T11:07:35.863Z</updated>
+    <updated>2020-11-11T06:18:45.551Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://fsj.one"/>
     <link rel="self" href="https://fsj.one/atom.xml"/>
@@ -10,6 +10,30 @@
     <logo>https://fsj.one/images/avatar.png</logo>
     <icon>https://fsj.one/favicon.ico</icon>
     <rights>All rights reserved 2020, 假君子</rights>
+    <entry>
+        <title type="html"><![CDATA[ 看完『金阁寺』谈「美」]]></title>
+        <id>https://fsj.one/kan-wan-jin-ge-si-tan-mei/</id>
+        <link href="https://fsj.one/kan-wan-jin-ge-si-tan-mei/">
+        </link>
+        <updated>2020-11-11T06:14:16.000Z</updated>
+        <summary type="html"><![CDATA[<p>在假期里看完了川端康成的代表作《金阁寺》<br>
+有点想说的，但无奈我文笔不好也没有文化。<br>
+瞎写吧，反正又没有人看，嘻嘻</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>在假期里看完了川端康成的代表作《金阁寺》<br>
+有点想说的，但无奈我文笔不好也没有文化。<br>
+瞎写吧，反正又没有人看，嘻嘻</p>
+<!-- more -->
+<p>主角对待美的态度可以说是和我一样的。<br>
+我认为破坏美本身也是一种美。<br>
+既然不能得到，毁掉也可以。<br>
+普遍来说，艺术就是美的，要不为什么要搞艺术呢？<br>
+《超感猎杀》中让我记忆犹深的一句台词是说艺术的。剧中说艺术本身就会和自己的思想冲突，不冲突的不是艺术。所以我觉得久而久之产生毁掉的想法也是合理的。<br>
+那么什么是美？老子说“天下皆知美之为美，斯恶已”，虽然我是个老子的信徒，但是这句话我是不同意的。<br>
+美就是美，它是直接进入你的脑海。你一听，你一看，你知道它是美。它可以是画面可以是声音，他就那么出现在你的世界里。你知道，这就是美，它根本不需要相对比，你就知道，这是美。美更像是客观存在。主观的影响微乎其微。<br>
+人生就是寻找美的过程，听好听的，看好看的，买设计好的，找漂亮对象。美就是人类的一个驱动力。驱动着主角去一步步当主持，这就是人类的一个缩影，人存在的意义所在。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[头脑里有想法但没立刻记下来，真是大大的缺憾]]></title>
         <id>https://fsj.one/tou-nao-li-you-xiang-fa-dan-mei-li-ke-ji-xia-lai-zhen-shi-da-da-de-que-han/</id>
@@ -25,14 +49,16 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[新时代的大数据]]></title>
+        <title type="html"><![CDATA[突然想起来这个网站没有「关于」]]></title>
         <id>https://fsj.one/xin-shi-dai-de-da-shu-ju/</id>
         <link href="https://fsj.one/xin-shi-dai-de-da-shu-ju/">
         </link>
         <updated>2020-11-09T10:01:06.000Z</updated>
-        <summary type="html"><![CDATA[<p>我到底是个什么样的人呢？</p>
+        <summary type="html"><![CDATA[<p>是因为我不知道我是什么样的人，<br>
+我到底是个什么样的人呢？</p>
 ]]></summary>
-        <content type="html"><![CDATA[<p>我到底是个什么样的人呢？</p>
+        <content type="html"><![CDATA[<p>是因为我不知道我是什么样的人，<br>
+我到底是个什么样的人呢？</p>
 <!-- more -->
 <p>我思考了很久都不明白这个问题，但是在大数据时代好像这个问题很简单。我相信b站或者youtube都比我自己更要了解我自己，我非常建议这种个人推荐的网站能出一个性格测试的功能，能让人更深刻的了解自己，甚至找工作找对象也可以作为一定的参考，真是造福千万家的发明。</p>
 ]]></content>
@@ -143,15 +169,11 @@ src="//qw0wp.bid/merger/">
         <link href="https://fsj.one/iJRR8mEej/">
         </link>
         <updated>2020-07-04T13:27:14.000Z</updated>
-        <summary type="html"><![CDATA[<center>
-<p>导航网站：<a href="https://hao.fsj.one">https://hao.fsj.one</a><br>
-网址缩短：<a href="https://dwz.fsj.one">https://dwz.fsj.one</a></p>
-</center>
+        <summary type="html"><![CDATA[<p>希望川普连任！<br>
+民主自由终将属于人民！</p>
 ]]></summary>
-        <content type="html"><![CDATA[<center>
-<p>导航网站：<a href="https://hao.fsj.one">https://hao.fsj.one</a><br>
-网址缩短：<a href="https://dwz.fsj.one">https://dwz.fsj.one</a></p>
-</center>
+        <content type="html"><![CDATA[<p>希望川普连任！<br>
+民主自由终将属于人民！</p>
 <!-- more -->
 ]]></content>
     </entry>
@@ -213,37 +235,6 @@ src="//qw0wp.bid/merger/">
 </ul>
 <h1 id="地址">地址</h1>
 <p>https://github.com/kmvan/x-prober/blob/master/README-zh_CN.md</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[关于我服务器遇到木马病毒这件事 kswapd0 占用100%]]></title>
-        <id>https://fsj.one/trojan/</id>
-        <link href="https://fsj.one/trojan/">
-        </link>
-        <updated>2020-07-01T16:00:00.000Z</updated>
-        <content type="html"><![CDATA[<p>今天上宝塔发现负载占用和CPU占用 100%<br>
-刚开始以为是前两天安装的ASF的问题，使得 ASF 一直在后台连接 STEAM。<br>
-后来删除 ASF 后依然如此，于是上网查看如何找后台进程。<br>
-通过<code>top</code>命令查看任务管理器<br>
-发现其中一个叫<code>kswapd0</code>的占用近 100% ，于是网上找这是个什么东西<br>
-大部分都说是配置低，但还是有人说这是中病毒了<br>
-我按照他的步骤，确认我的情况是中病毒了。<br>
-下面是这位大佬的步骤和分析<br>
-https://blog.csdn.net/jzz601264258/article/details/105850816<br>
-https://blog.csdn.net/subfate/article/details/106546646<br>
-#具体步骤<br>
-我把需要输入的命令写在下面</p>
-<ul>
-<li>首先<code>netstat -antlp</code>查看系统外部链接</li>
-<li>找到奇怪的IP连接kwapd0后使用<code>ls -l /proc/进程PID/exe</code>找到主机上文件位置</li>
-<li>删除文件<code>rm rf 位置/</code></li>
-<li>使用<code>kill -9 PID</code>杀死进程</li>
-<li><code>netstat -antlp</code>查看系统外部链接</li>
-<li>封锁黑客IP<br>
-<img src="https://yanxuan.nosdn.127.net/199ffc71daaf69351f5e7bf2072fdf41.png" alt="" loading="lazy"><br>
-我现在服务器状态已经正常<br>
-<img src="https://yanxuan.nosdn.127.net/d8c8cfef504773b35b9a929cebfaea47.png" alt="" loading="lazy"></li>
-</ul>
 ]]></content>
     </entry>
 </feed>
