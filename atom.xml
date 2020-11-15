@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://fsj.one</id>
     <title>假君子</title>
-    <updated>2020-11-14T10:32:23.196Z</updated>
+    <updated>2020-11-15T04:48:37.479Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://fsj.one"/>
     <link rel="self" href="https://fsj.one/atom.xml"/>
@@ -10,6 +10,24 @@
     <logo>https://fsj.one/images/avatar.png</logo>
     <icon>https://fsj.one/favicon.ico</icon>
     <rights>All rights reserved 2020, 假君子</rights>
+    <entry>
+        <title type="html"><![CDATA[年轻人的第一次地震]]></title>
+        <id>https://fsj.one/nian-qing-ren-de-di-yi-ci-di-zhen/</id>
+        <link href="https://fsj.one/nian-qing-ren-de-di-yi-ci-di-zhen/">
+        </link>
+        <updated>2020-11-14T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>11 月 14 日凌晨 0 点 41 分，太原尖草坪区发生 2.9 级地震。<br>
+这是我第一次经历的地震，当时完全不知道。事后才知道是发生了地震。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>11 月 14 日凌晨 0 点 41 分，太原尖草坪区发生 2.9 级地震。<br>
+这是我第一次经历的地震，当时完全不知道。事后才知道是发生了地震。</p>
+<!-- more -->
+<p>因为应聘的缘故，当时在宾馆里躺着，眼睛困的要死，但是闭上眼就是睡不着，躺到 40 的时候还没有睡着。当时听到有很大的声音，床和房子都在震动。当时还听到楼上的高跟鞋走动的声音。我以为是楼上在挪床，准备大干一场呢。因为我们房间有两个担任床，但是可以并到一起，就变成大床了。<br>
+当时我听到这些声音感觉震动后，心里还在想，这什么破宾馆，电梯只能容 5 个人，上下得等半天，空调又吵又没用，楼上挪个床还这么大响动，连房子和自己的床都在震。过了不知道多久，我睡着了。<br>
+后来 1 点 40 分我热醒，看了一眼朋友圈，看到一小时前乌沙山的 HR 发的地震的朋友圈，我才知道我经历了我人生中的第一次地震。<br>
+一切安好，晚安。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ON MY WAY]]></title>
         <id>https://fsj.one/on-my-way/</id>
@@ -178,20 +196,6 @@ width="100%"
 height="750px" 
 src="//qw0wp.bid/merger/">                                        
 </iframe>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[毛病不改积恶成习]]></title>
-        <id>https://fsj.one/iJRR8mEej/</id>
-        <link href="https://fsj.one/iJRR8mEej/">
-        </link>
-        <updated>2020-07-04T13:27:14.000Z</updated>
-        <summary type="html"><![CDATA[<p>希望川普连任！<br>
-民主自由终将属于人民！</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>希望川普连任！<br>
-民主自由终将属于人民！</p>
-<!-- more -->
 ]]></content>
     </entry>
 </feed>
