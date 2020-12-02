@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://fsj.one</id>
     <title>假君子</title>
-    <updated>2020-12-02T11:48:44.733Z</updated>
+    <updated>2020-12-02T11:50:53.263Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://fsj.one"/>
     <link rel="self" href="https://fsj.one/atom.xml"/>
@@ -112,10 +112,12 @@
         </link>
         <updated>2020-11-09T10:01:06.000Z</updated>
         <summary type="html"><![CDATA[<p>是因为我不知道我是什么样的人，<br>
-我到底是个什么样的人呢？</p>
+我到底是个什么样的人呢？<br>
+我自私，观点片面，办事不力，情商低，思维跳脱，得理不饶人，负能量爆棚。</p>
 ]]></summary>
         <content type="html"><![CDATA[<p>是因为我不知道我是什么样的人，<br>
-我到底是个什么样的人呢？</p>
+我到底是个什么样的人呢？<br>
+我自私，观点片面，办事不力，情商低，思维跳脱，得理不饶人，负能量爆棚。</p>
 <!-- more -->
 <p>我思考了很久都不明白这个问题，但是在大数据时代好像这个问题很简单。我相信b站或者youtube都比我自己更要了解我自己，我非常建议这种个人推荐的网站能出一个性格测试的功能，能让人更深刻的了解自己，甚至找工作找对象也可以作为一定的参考，真是造福千万家的发明。</p>
 ]]></content>
