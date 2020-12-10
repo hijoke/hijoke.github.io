@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://fsj.one</id>
     <title>假君子</title>
-    <updated>2020-12-07T06:18:05.329Z</updated>
+    <updated>2020-12-10T05:39:58.671Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://fsj.one"/>
     <link rel="self" href="https://fsj.one/atom.xml"/>
@@ -10,6 +10,22 @@
     <logo>https://fsj.one/images/avatar.png</logo>
     <icon>https://fsj.one/favicon.ico</icon>
     <rights>All rights reserved 2020, 假君子</rights>
+    <entry>
+        <title type="html"><![CDATA[「赛博朋克2077」终于玩到了，就简单说说我的感受吧。]]></title>
+        <id>https://fsj.one/Cyberpunk20770/</id>
+        <link href="https://fsj.one/Cyberpunk20770/">
+        </link>
+        <updated>2020-12-10T04:15:38.000Z</updated>
+        <content type="html"><![CDATA[<p>初步玩了一下，要想好好玩我得想有一个能带的动的好电脑，就简单说说我的感受吧。<br>
+这游戏优化还可以，1050Ti 勉强30帧可以游玩，但有点头晕。<br>
+说好的捏脸系统丰富，其实也没有多丰富，生殖器更是只有两个选项：「大」、「小」，<strong>失望</strong>。<br>
+驾驶居然有手柄线性，好评一个。但是手感稀烂，像在雪地开大马后驱车一样，倒车的时候视角能不能不要乱动，我知道你是为了倒车开而设计的，但能不能晚一点再出来后视视角？<br>
+配音没有感情，有点怪怪的。但是说的话挺接地气，『我们差点就完蛋草了』，哈哈哈。<br>
+游戏画面太暗了，需要个合适的环境玩。<br>
+这游戏居然没有屏蔽输入法！2020 年了，你游戏不屏蔽输入法？<br>
+不过可以感觉出来，蠢骡野心很大，我不想去网上看视频看剧透，可能把这个游戏玩完需要很久吧。但是不妨碍我给他一个差评，嘻嘻，很多玩家早就因为你这个游戏攒机，攒了一个 2070 想着冲，结果玩到你这游戏的时候已经该买 3070 了，真有你的。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[中国特色薛定谔主义]]></title>
         <id>https://fsj.one/shehuizhuyiwansui/</id>
@@ -160,24 +176,6 @@
 从大二暑假开始去天津找兼职，就开始了，我可能不适合找工作吧。当时去天津找个班上上，去了结果没名额了，只好灰溜溜的滚回来，现在记得的东西只有当时在郊区马路上大中午顶着大太阳骑小蓝车的样子。<br>
 现在开始正式招聘，刚开始就遇到了特殊情况，教室被占，招聘会终止，而面试的下一个就是我，真的倒霉，太原直接白去，虽然我并没有能面试成功的希望，我只是想看看面试是什么样子，结果白去。然后回来之后的面试是网上面试，网上面试真的恶心，HR问我成绩然后直接拒绝，问题是我说的也不后啊。然后江山的面试都没给我面试，不过倒是让我机考过了，不亏。之后的宁德也和托电情况差不多，如果不是名次靠后，可能我已经成功了，白等到10点多，澡也没洗成。然后张电白面试，谁也没要就要党员，我寻思这是开党校？张热被推荐了也没消息，可能是我没去通知我机考过了把我影响了。蔚州因为没有真证也没去试试，但是11月中还要扩招，不知道到时候怎么样。<br>
 前二十年可能是运气不错，可能之后就没这么简单了。人生才刚开始，我的黄金时代。</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[诗一首]]></title>
-        <id>https://fsj.one/shi-yi-shou/</id>
-        <link href="https://fsj.one/shi-yi-shou/">
-        </link>
-        <updated>2020-07-28T08:31:23.000Z</updated>
-        <summary type="html"><![CDATA[<p>庚子庚子不得了，粮食没问题，瘟疫被赶跑。百姓安居乐业，齐夸党的领导，尤其爱国青年，更是天下难找。<br>
-国外比较乱套，成天勾心斗角，昨天首相病危，今天统领要倒。闹完弹劾危机，又来疫情领跑。纵观世界风云， 风景祖国独好！</p>
-<p>作者：<br>
-Sylvie Wang</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>庚子庚子不得了，粮食没问题，瘟疫被赶跑。百姓安居乐业，齐夸党的领导，尤其爱国青年，更是天下难找。<br>
-国外比较乱套，成天勾心斗角，昨天首相病危，今天统领要倒。闹完弹劾危机，又来疫情领跑。纵观世界风云， 风景祖国独好！</p>
-<p>作者：<br>
-Sylvie Wang</p>
-<!-- more -->
 ]]></content>
     </entry>
 </feed>
