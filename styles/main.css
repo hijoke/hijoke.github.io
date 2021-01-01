@@ -9625,3 +9625,15 @@ photos .photo:last-child {
   border-top: 1px solid #aaa;
   padding-top: 8px;
 }
+.license {
+  font-size: 0.525em;
+  color: #999;
+  margin: 0;
+}
+user agent stylesheet p {
+  display: unset;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
