@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://fsj.one</id>
     <title>假君子</title>
-    <updated>2021-01-01T07:24:42.587Z</updated>
+    <updated>2021-01-01T07:27:07.757Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://fsj.one"/>
     <link rel="self" href="https://fsj.one/atom.xml"/>
@@ -23,6 +23,10 @@
         <link href="https://fsj.one/wo-de-2020-nian-du-bao-gao/">
         </link>
         <updated>2020-12-31T07:08:07.000Z</updated>
+        <summary type="html"><![CDATA[<div class="post-content">   今天是 2020 年的最后一天了，明天就是 2021 年。其实我非常想养成记录的好习惯，但是这真的很难做到，我的文笔不是很好，人又非常懒惰，致使一年的时间里也没写了几篇文章，所以现在写上这篇文章来为自己网站的 2020 画个句号。<br>
+]]></summary>
+        <content type="html"><![CDATA[<div class="post-content">   今天是 2020 年的最后一天了，明天就是 2021 年。其实我非常想养成记录的好习惯，但是这真的很难做到，我的文笔不是很好，人又非常懒惰，致使一年的时间里也没写了几篇文章，所以现在写上这篇文章来为自己网站的 2020 画个句号。<br>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[个人评选「世界上最好听的音乐」排名]]></title>
