@@ -762,29 +762,25 @@ Sylvie Wang</p>
             <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />默认采用 <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议</a>            进行许可。
             <br/> Theme<a href="https://github.com/lmm214/gridea-theme-breek/" target="_blank">「breek」</a>& Powered by<a href="https://gridea.dev/" target="_blank">「Gridea」</a>
             <br/>
-            <d class="timer">已运行 <b id="d"></b> 天 <b id="h"></b> 时 <b id="m"></b> 分</d>
-            <script>
-                function timer() {
-                    window.setTimeout("timer()", 1000);
-                    var start = new Date(" 2020-05-06 17:53:50 ");
-                    var t = new Date().getTime() - start;
-                    var h = ~~(t / 1000 / 60 / 60 % 24);
-                    if (h < 10) {
-                        h = "0" + h;
-                    }
-                    var m = ~~(t / 1000 / 60 % 60);
-                    if (m < 10) {
-                        m = "0" + m;
-                    }
-                    var s = ~~(t / 1000 % 60);
-                    if (s < 10) {
-                        s = "0" + s;
-                    }
-                    document.getElementById('d').innerHTML = ~~(t / 1000 / 60 / 60 / 24);
-                    document.getElementById('h').innerHTML = h;
-                    document.getElementById('m').innerHTML = m;
+            <span id="span"></span>
+            <script type="text/javascript">
+                function runtime() {
+                    // 初始时间，日/月/年 时:分:秒
+                    X = new Date("5/6/2020 17:53:50");
+                    Y = new Date();
+                    T = (Y.getTime() - X.getTime());
+                    M = 24 * 60 * 60 * 1000;
+                    a = T / M;
+                    A = Math.floor(a);
+                    b = (a - A) * 24;
+                    B = Math.floor(b);
+                    c = (b - B) * 60;
+                    C = Math.floor((b - B) * 60);
+                    D = Math.floor((c - C) * 60);
+                    //信息写入到DIV中
+                    span.innerHTML = "本站运行： " + A + " 天 " + B + " 小时 " + C + " 分 " + D + " 秒 "
                 }
-                timer();
+                setInterval(runtime, 1000);
             </script>
     </p>
 
